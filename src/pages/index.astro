@@ -1,0 +1,89 @@
+---
+import Main from "../layouts/Main.astro";
+import Cards from '../components/Cards.astro'
+const profilePicture = "https://th.bing.com/th?id=OIF.8NC9Dl%2fUNUggcDvzEb9HPA&rs=1&pid=ImgDetMain";
+---
+
+
+<Main title="Abenezer">
+				<div class="profile">
+					<img alt="abenewebsit"
+						 width="100px"
+						 height="100px"
+						 src={profilePicture}
+						 class="profile__picture"/>
+
+
+             <div class="profile__details">
+					 <h1>Abenezer Alemayhu</h1>
+					 <h2>Software deeveloper @turing</h2>
+					 <p>
+						Lorem Ipsum is simply dummy text of the printing and
+						 typesetting industry. Lorem Ipsum has been the
+						 industry's standard dummy text ever since the 1500s,
+					 </p>
+			 </div>
+		</div>
+	<Cards cards={[
+
+		{
+			title:"selam selam CBE birr tetekemu kr tele",
+			gradientForm: "#fde68a",
+			gradientTo:"#d8a",
+			to:'/work-summary'
+
+		},
+		{
+			title:"Reveo amendat kamarek gezaw ale",
+			gradientForm: "#81a",
+			gradientTo:"#d8b4fe",
+			to:'/philosophies'
+
+		},
+		// {
+		// 	title:"hayate min ale seleasebut hayate hahaha🥵",
+		// 	gradientForm: "#818cf8",
+		// 	gradientTo:"#d8b4fe",
+		// 	to:'/philosophies'
+		//
+		// },
+		{
+			title:"Doro yemewed kamarek gezaw ale",
+			gradientForm: "#8ee",
+			gradientTo:"#d6e4fe",
+			to:'/philosophies'
+
+		},
+
+	]}/>
+	</Main>
+
+<style>
+	/*<!--Css as usual-->*/
+.profile {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	padding: 1rem 0 3rem 0;
+}
+
+.profile__details {
+	flex:300px;
+}
+
+.profile__details > h1 {
+	  margin-top: 0;
+	color: #21b7bb;
+}
+
+.profile__picture {
+
+	  border-radius: 50%;
+	  margin: 0 2rem 1rem 0;
+}
+
+</style>
+
+<script>
+
+</script>
