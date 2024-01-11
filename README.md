@@ -1,4 +1,5 @@
 # Astro Starter Kit: Minimal
+![Web capture_12-1-2024_13243_localhost](https://github.com/Abenezerjr/Astro-base-personal-website/assets/106702572/27323036-38e1-4bcb-9b02-3375c8fff4b5)
 
 ```sh
 npm create astro@latest -- --template minimal
